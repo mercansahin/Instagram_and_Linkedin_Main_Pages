@@ -1,0 +1,126 @@
+.body{
+    background-color: #f3f2ef;
+}
+.navbarbg {
+    height: 50px;
+    background-color: white;
+  }
+  
+.container {
+    max-width: 1200px; /* Container'ın maksimum genişliğini sınırla */
+    margin: 0 auto; /* Container'ı ortala */
+    margin-top: 90px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Sütunların alt alta geçmesini sağla */
+  }
+  
+  .col-3, .col-6 {
+    padding: 0 15px; /* Sütunlar arası boşluk ekle */
+    box-sizing: border-box; /* Padding'i genişliğe dahil et */
+  }
+
+.bg-img {
+    background-image: url(https://img.freepik.com/free-vector/texture-chipped-wall_1048-2726.jpg?t=st=1740392005~exp=1740395605~hmac=7906b837def880d1032df35a1758588ad105b37692c3f9f7a725df149490e0eb&w=740);
+    height: 55px;
+}
+.prof-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+}
+
+.menutext {
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+    font-weight: lighter;
+  }
+  
+  .button-container {
+    display: inline-flex;
+    margin-top: 5px;
+  }
+  
+  .button-container button {
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .button-container-2 button{
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+  }
+  
+  .mediatext {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+  }
+  
+  i {
+    color: gray;
+    margin-top: 8px;
+  }
+  i:hover {
+    color: black;
+  }
+  
+  div.card {
+    border-radius: 10px;
+  }
+  
+  .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .view {
+    font-size: 12px;
+    font-weight: bold;
+    color: #5f5f5f;
+  }
+  
+  .categories {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0a66c2;
+  }
+  
+  li {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .link {
+    font-size: 12px;
+    color: #5f5f5f;
+  }
+  
+
+  
+  .postphoto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .posttext {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8px;
+  }
