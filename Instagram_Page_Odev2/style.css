@@ -1,0 +1,63 @@
+body {
+    background-color: #fafafa;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar img.logo {
+    margin-left: 192px;
+    height: 54px;
+}
+
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.middlearea {
+    margin-top: 0.5rem;
+}
+.middlearea .card {
+    max-height: 200px !important;
+}
+
+.content {
+    width: 20px;
+}
+
+/* Gönderilerin altında bulunan ikonlar */
+.icon-btn {
+    padding: 0 !important;
+    margin-right: 10px !important;
+    border: none !important;
+    background: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .icon-btn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.rightpanel {
+    position: fixed !important;
+    top: 150px !important;  /* Navbar altı konum için */
+    right: 200px !important; /* Sağdan mesafe */
+    max-width: 20px;          /* İstediğiniz sabit genişlik (örneğin 250px) */
+    background-color: #ffffff;
+    z-index: 9999 !important;
+    background: none;
+}
+
+.rightpanel-inner {
+    box-sizing: border-box; /* Border toplam genişliğe dahil */
+    border: 1px solid #ccc;  /* İstediğiniz border rengi ve kalınlığı */
+    background-color: #f8f4f4; /* Arka plan beyaz, böylece altındaki gönderiler görünmez */
+    padding: 10px; /* İç boşluk, isteğe bağlı */
+}
